@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "b2e415a3d3a91273f832da7efe96293e"
+build_time: [545680042, 282491000]
+inputs:
+  "/Users/rep/Diplomski/Diplomski_rad/Diplomski_rad/ViewController.swift": [9223372036854775807, 0]
+  "/Users/rep/Diplomski/Diplomski_rad/Diplomski_rad/AppDelegate.swift": [9223372036854775807, 0]

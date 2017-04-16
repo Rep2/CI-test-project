@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2065CDADBCC14D92DE57C081 /* Pods_Diplomski_radUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B426E82BEDCE6D3456020C7 /* Pods_Diplomski_radUITests.framework */; };
+		2F0D4A8B6E992589CF1948B1 /* Pods_Diplomski_radTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20871222BCA879EC05C7FD93 /* Pods_Diplomski_radTests.framework */; };
+		69665A0660FF6F61AE1EFCFB /* Pods_Diplomski_rad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C43DC21BC245AD2AC04DC1 /* Pods_Diplomski_rad.framework */; };
 		ADC546D81EA3E53100D9B56C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC546D71EA3E53100D9B56C /* AppDelegate.swift */; };
 		ADC546DA1EA3E53100D9B56C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC546D91EA3E53100D9B56C /* ViewController.swift */; };
 		ADC546DD1EA3E53100D9B56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC546DB1EA3E53100D9B56C /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20871222BCA879EC05C7FD93 /* Pods_Diplomski_radTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diplomski_radTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2550C76A5D5B20AC5D46ECAC /* Pods-Diplomski_rad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diplomski_rad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diplomski_rad/Pods-Diplomski_rad.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0B9C9EC598540D769253D8 /* Pods-Diplomski_rad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diplomski_rad.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diplomski_rad/Pods-Diplomski_rad.release.xcconfig"; sourceTree = "<group>"; };
+		54D0649AF83478531A8B3B5F /* Pods-Diplomski_radTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diplomski_radTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diplomski_radTests/Pods-Diplomski_radTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A33EA8AB8BCF3E6B323E20A /* Pods-Diplomski_radTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diplomski_radTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diplomski_radTests/Pods-Diplomski_radTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5DDAABA3582F9D81308E22 /* Pods-Diplomski_radUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diplomski_radUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diplomski_radUITests/Pods-Diplomski_radUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81C43DC21BC245AD2AC04DC1 /* Pods_Diplomski_rad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diplomski_rad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B426E82BEDCE6D3456020C7 /* Pods_Diplomski_radUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diplomski_radUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC546D41EA3E53100D9B56C /* Diplomski_rad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diplomski_rad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC546D71EA3E53100D9B56C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC546D91EA3E53100D9B56C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		ADC546F31EA3E53100D9B56C /* Diplomski_radUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Diplomski_radUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC546F71EA3E53100D9B56C /* Diplomski_radUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diplomski_radUITests.swift; sourceTree = "<group>"; };
 		ADC546F91EA3E53100D9B56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18B3E362CFABB14D7666A89 /* Pods-Diplomski_radUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diplomski_radUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diplomski_radUITests/Pods-Diplomski_radUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69665A0660FF6F61AE1EFCFB /* Pods_Diplomski_rad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0D4A8B6E992589CF1948B1 /* Pods_Diplomski_radTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2065CDADBCC14D92DE57C081 /* Pods_Diplomski_radUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53E0F521F110BFAF6FE53E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81C43DC21BC245AD2AC04DC1 /* Pods_Diplomski_rad.framework */,
+				20871222BCA879EC05C7FD93 /* Pods_Diplomski_radTests.framework */,
+				8B426E82BEDCE6D3456020C7 /* Pods_Diplomski_radUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A469B51E4E387B19F87CBAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2550C76A5D5B20AC5D46ECAC /* Pods-Diplomski_rad.debug.xcconfig */,
+				2A0B9C9EC598540D769253D8 /* Pods-Diplomski_rad.release.xcconfig */,
+				6A33EA8AB8BCF3E6B323E20A /* Pods-Diplomski_radTests.debug.xcconfig */,
+				54D0649AF83478531A8B3B5F /* Pods-Diplomski_radTests.release.xcconfig */,
+				7F5DDAABA3582F9D81308E22 /* Pods-Diplomski_radUITests.debug.xcconfig */,
+				B18B3E362CFABB14D7666A89 /* Pods-Diplomski_radUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ADC546CB1EA3E53000D9B56C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				ADC546EB1EA3E53100D9B56C /* Diplomski_radTests */,
 				ADC546F61EA3E53100D9B56C /* Diplomski_radUITests */,
 				ADC546D51EA3E53100D9B56C /* Products */,
+				9A469B51E4E387B19F87CBAB /* Pods */,
+				53E0F521F110BFAF6FE53E3F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADC546FC1EA3E53100D9B56C /* Build configuration list for PBXNativeTarget "Diplomski_rad" */;
 			buildPhases = (
+				0843D01064979406910258D2 /* [CP] Check Pods Manifest.lock */,
 				ADC546D01EA3E53100D9B56C /* Sources */,
 				ADC546D11EA3E53100D9B56C /* Frameworks */,
 				ADC546D21EA3E53100D9B56C /* Resources */,
+				3627E7D228977971BC3C2C8A /* [CP] Embed Pods Frameworks */,
+				7109BF5C566F92852A46ECE5 /* [CP] Copy Pods Resources */,
+				ADC547051EA3F25000D9B56C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADC546FF1EA3E53100D9B56C /* Build configuration list for PBXNativeTarget "Diplomski_radTests" */;
 			buildPhases = (
+				44C0D1B98A28B0EC5C25BEBF /* [CP] Check Pods Manifest.lock */,
 				ADC546E41EA3E53100D9B56C /* Sources */,
 				ADC546E51EA3E53100D9B56C /* Frameworks */,
 				ADC546E61EA3E53100D9B56C /* Resources */,
+				893BBF0C5035E72C83D121BB /* [CP] Embed Pods Frameworks */,
+				32CB934729C7117C52295AFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADC547021EA3E53100D9B56C /* Build configuration list for PBXNativeTarget "Diplomski_radUITests" */;
 			buildPhases = (
+				92C797F8A4B7B52771EDE0D9 /* [CP] Check Pods Manifest.lock */,
 				ADC546EF1EA3E53100D9B56C /* Sources */,
 				ADC546F01EA3E53100D9B56C /* Frameworks */,
 				ADC546F11EA3E53100D9B56C /* Resources */,
+				A802135BF8D69B2F4553D869 /* [CP] Embed Pods Frameworks */,
+				C006C2E12108FC47362B4877 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +243,7 @@
 				TargetAttributes = {
 					ADC546D31EA3E53100D9B56C = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = MDX989Y6D8;
+						DevelopmentTeam = XU2GV7VZT6;
 						ProvisioningStyle = Automatic;
 					};
 					ADC546E71EA3E53100D9B56C = {
@@ -256,6 +306,157 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0843D01064979406910258D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32CB934729C7117C52295AFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diplomski_radTests/Pods-Diplomski_radTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3627E7D228977971BC3C2C8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diplomski_rad/Pods-Diplomski_rad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44C0D1B98A28B0EC5C25BEBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7109BF5C566F92852A46ECE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diplomski_rad/Pods-Diplomski_rad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		893BBF0C5035E72C83D121BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diplomski_radTests/Pods-Diplomski_radTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92C797F8A4B7B52771EDE0D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A802135BF8D69B2F4553D869 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diplomski_radUITests/Pods-Diplomski_radUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC547051EA3F25000D9B56C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		C006C2E12108FC47362B4877 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diplomski_radUITests/Pods-Diplomski_radUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADC546D01EA3E53100D9B56C /* Sources */ = {
@@ -415,12 +616,13 @@
 		};
 		ADC546FD1EA3E53100D9B56C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2550C76A5D5B20AC5D46ECAC /* Pods-Diplomski_rad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MDX989Y6D8;
+				DEVELOPMENT_TEAM = XU2GV7VZT6;
 				INFOPLIST_FILE = Diplomski_rad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.undabot.Diplomski-rad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,12 +630,13 @@
 		};
 		ADC546FE1EA3E53100D9B56C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0B9C9EC598540D769253D8 /* Pods-Diplomski_rad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MDX989Y6D8;
+				DEVELOPMENT_TEAM = XU2GV7VZT6;
 				INFOPLIST_FILE = Diplomski_rad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.undabot.Diplomski-rad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -441,6 +644,7 @@
 		};
 		ADC547001EA3E53100D9B56C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A33EA8AB8BCF3E6B323E20A /* Pods-Diplomski_radTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +660,7 @@
 		};
 		ADC547011EA3E53100D9B56C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D0649AF83478531A8B3B5F /* Pods-Diplomski_radTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +676,7 @@
 		};
 		ADC547031EA3E53100D9B56C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5DDAABA3582F9D81308E22 /* Pods-Diplomski_radUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
@@ -485,6 +691,7 @@
 		};
 		ADC547041EA3E53100D9B56C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18B3E362CFABB14D7666A89 /* Pods-Diplomski_radUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
@@ -516,6 +723,7 @@
 				ADC546FE1EA3E53100D9B56C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADC546FF1EA3E53100D9B56C /* Build configuration list for PBXNativeTarget "Diplomski_radTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +732,7 @@
 				ADC547011EA3E53100D9B56C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADC547021EA3E53100D9B56C /* Build configuration list for PBXNativeTarget "Diplomski_radUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +741,7 @@
 				ADC547041EA3E53100D9B56C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
