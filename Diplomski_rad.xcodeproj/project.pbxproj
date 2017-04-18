@@ -11,7 +11,6 @@
 		2F0D4A8B6E992589CF1948B1 /* Pods_Diplomski_radTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20871222BCA879EC05C7FD93 /* Pods_Diplomski_radTests.framework */; };
 		69665A0660FF6F61AE1EFCFB /* Pods_Diplomski_rad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C43DC21BC245AD2AC04DC1 /* Pods_Diplomski_rad.framework */; };
 		ADC546D81EA3E53100D9B56C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC546D71EA3E53100D9B56C /* AppDelegate.swift */; };
-		ADC546DD1EA3E53100D9B56C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC546DB1EA3E53100D9B56C /* Main.storyboard */; };
 		ADC546DF1EA3E53100D9B56C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC546DE1EA3E53100D9B56C /* Assets.xcassets */; };
 		ADC546E21EA3E53100D9B56C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC546E01EA3E53100D9B56C /* LaunchScreen.storyboard */; };
 		ADC546ED1EA3E53100D9B56C /* Diplomski_radTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC546EC1EA3E53100D9B56C /* Diplomski_radTests.swift */; };
@@ -46,7 +45,6 @@
 		8B426E82BEDCE6D3456020C7 /* Pods_Diplomski_radUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diplomski_radUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC546D41EA3E53100D9B56C /* Diplomski_rad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diplomski_rad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC546D71EA3E53100D9B56C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADC546DC1EA3E53100D9B56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADC546DE1EA3E53100D9B56C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC546E11EA3E53100D9B56C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADC546E31EA3E53100D9B56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				ADC546D71EA3E53100D9B56C /* AppDelegate.swift */,
-				ADC546DB1EA3E53100D9B56C /* Main.storyboard */,
 				ADC546DE1EA3E53100D9B56C /* Assets.xcassets */,
 				ADC546E01EA3E53100D9B56C /* LaunchScreen.storyboard */,
 				ADC546E31EA3E53100D9B56C /* Info.plist */,
@@ -284,7 +281,6 @@
 			files = (
 				ADC546E21EA3E53100D9B56C /* LaunchScreen.storyboard in Resources */,
 				ADC546DF1EA3E53100D9B56C /* Assets.xcassets in Resources */,
-				ADC546DD1EA3E53100D9B56C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +313,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		32CB934729C7117C52295AFE /* [CP] Copy Pods Resources */ = {
@@ -362,7 +358,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7109BF5C566F92852A46ECE5 /* [CP] Copy Pods Resources */ = {
@@ -407,7 +403,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A802135BF8D69B2F4553D869 /* [CP] Embed Pods Frameworks */ = {
@@ -496,14 +492,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ADC546DB1EA3E53100D9B56C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADC546DC1EA3E53100D9B56C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADC546E01EA3E53100D9B56C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
