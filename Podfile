@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'Diplomski_rad' do
     pod 'LayoutKit'
+    pod 'Fabric'
+    pod 'Crashlytics'
 end
 
 

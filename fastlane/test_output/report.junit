@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='Diplomski_radUITests.xctest' tests='3' failures='0'>
+  <testsuite name='Diplomski_radTests.Diplomski_radTests' tests='2' failures='0'>
+    <testcase classname='Diplomski_radTests.Diplomski_radTests' name='testExample' time='0.005'/>
+    <testcase classname='Diplomski_radTests.Diplomski_radTests' name='testPerformanceExample' time='0.267'/>
+  </testsuite>
+  <testsuite name='Diplomski_radUITests.Diplomski_radUITests' tests='1' failures='0'>
+    <testcase classname='Diplomski_radUITests.Diplomski_radUITests' name='testExample' time='6.659'/>
+  </testsuite>
+</testsuites>
