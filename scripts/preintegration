@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -f scripts/cocoapods ]; then
+    ./scripts/cocoapods
+fi
+
+if [ -f scripts/carthage ]; then
+    ./scripts/carthage
+fi

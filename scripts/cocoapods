@@ -1,0 +1,17 @@
+#!/bin/bash
+if [ -f Podfile ]; then #1
+    echo "Podfile found. Starting CocoaPods"
+
+    if ! which pod >/dev/null; then #2
+        echo "Installing CocoaPods"
+
+        gem install cocoapods --user-install #3
+        pod repo update
+
+        echo "CocoaPods installed"
+    fi
+
+    pod install #4
+
+    echo "Finished dependancy fetch using CocoaPods"
+fi
