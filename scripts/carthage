@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ -f Cartfile ]; then
+    echo "Cartfile found. Starting Carthage" #1
+
+    if !(which carthage >/dev/null); then #2
+        echo "Instaling Carthage"
+
+        brew install carthage
+    fi
+
+    carthage update --platform ios --cache-builds #3
+
+    echo "Finished dependancy fetch using Carthage"
+fi
