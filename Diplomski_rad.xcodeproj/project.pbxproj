@@ -15,6 +15,8 @@
 		ADC546E21EA3E53100D9B56C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC546E01EA3E53100D9B56C /* LaunchScreen.storyboard */; };
 		ADC546ED1EA3E53100D9B56C /* Diplomski_radTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC546EC1EA3E53100D9B56C /* Diplomski_radTests.swift */; };
 		ADC546F81EA3E53100D9B56C /* Diplomski_radUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC546F71EA3E53100D9B56C /* Diplomski_radUITests.swift */; };
+		D22E17EC1EEDD53F0098BC64 /* SafeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E17EB1EEDD53F0098BC64 /* SafeArray.swift */; };
+		D22E17EE1EEDD54A0098BC64 /* SafeArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22E17ED1EEDD54A0098BC64 /* SafeArrayTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		ADC546F71EA3E53100D9B56C /* Diplomski_radUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diplomski_radUITests.swift; sourceTree = "<group>"; };
 		ADC546F91EA3E53100D9B56C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B18B3E362CFABB14D7666A89 /* Pods-Diplomski_radUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diplomski_radUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diplomski_radUITests/Pods-Diplomski_radUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D22E17EB1EEDD53F0098BC64 /* SafeArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeArray.swift; sourceTree = "<group>"; };
+		D22E17ED1EEDD54A0098BC64 /* SafeArrayTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeArrayTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 				ADC546DE1EA3E53100D9B56C /* Assets.xcassets */,
 				ADC546E01EA3E53100D9B56C /* LaunchScreen.storyboard */,
 				ADC546E31EA3E53100D9B56C /* Info.plist */,
+				D22E17EB1EEDD53F0098BC64 /* SafeArray.swift */,
 			);
 			path = Diplomski_rad;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			children = (
 				ADC546EC1EA3E53100D9B56C /* Diplomski_radTests.swift */,
 				ADC546EE1EA3E53100D9B56C /* Info.plist */,
+				D22E17ED1EEDD54A0098BC64 /* SafeArrayTest.swift */,
 			);
 			path = Diplomski_radTests;
 			sourceTree = "<group>";
@@ -473,6 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22E17EC1EEDD53F0098BC64 /* SafeArray.swift in Sources */,
 				ADC546D81EA3E53100D9B56C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22E17EE1EEDD54A0098BC64 /* SafeArrayTest.swift in Sources */,
 				ADC546ED1EA3E53100D9B56C /* Diplomski_radTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
