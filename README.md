@@ -1,1 +1,5 @@
-Project to test continuous devlivery on iOS using Xcode Server.
+# CI test project
+
+Projekt za testiranje funkcionalnosti kontinuirane integracije za iOS operacijsku sustav.
+
+Kontinuirana integracija implementirana korištenjem Xcode Server aplikacije a kontinuirana dostava korištenjem fastlane alata.
