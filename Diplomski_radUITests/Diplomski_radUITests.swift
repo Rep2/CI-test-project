@@ -29,7 +29,6 @@ class Diplomski_radUITests: XCTestCase {
     }
     
     func testExample() {
-        XCTAssert(true)
     }
     
 }

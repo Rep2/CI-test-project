@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH="/usr/local/bin:~/.gem/ruby/2.0.0/bin/:$PATH"
+export PATH="~/com.rep.Diplomski-rad.development:/usr/local/bin:~/.gem/ruby/2.0.0/bin/:$PATH"
 
 if [ -f scripts/cocoapods ]; then
     ./scripts/cocoapods
