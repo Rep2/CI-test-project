@@ -39,16 +39,6 @@
                ReferencedContainer = "container:Diplomski_rad.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ADC546F21EA3E53100D9B56C"
-               BuildableName = "Diplomski_radUITests.xctest"
-               BlueprintName = "Diplomski_radUITests"
-               ReferencedContainer = "container:Diplomski_rad.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
