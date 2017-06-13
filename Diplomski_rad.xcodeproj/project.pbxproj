@@ -661,14 +661,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2BB77851EEF313800FB9280 /* Development.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 45;
+				CURRENT_PROJECT_VERSION = 61;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MDX989Y6D8;
 				INFOPLIST_FILE = Diplomski_rad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad.development";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad.release-candidate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c1f46f53-335f-4718-96b7-22aad0ec938f";
 				PROVISIONING_PROFILE_SPECIFIER = "match Development com.rep.Diplomski-rad.development";
@@ -681,13 +682,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2BB77861EEF313800FB9280 /* Production.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 45;
+				CURRENT_PROJECT_VERSION = 61;
 				DEVELOPMENT_TEAM = MDX989Y6D8;
 				INFOPLIST_FILE = Diplomski_rad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad.development";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad.release-candidate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0df5d3d0-cf44-461d-b8dd-95cab164390d";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.rep.Diplomski-rad";
@@ -814,16 +816,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2BB77871EEF313800FB9280 /* Release_candidate.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 45;
+				CURRENT_PROJECT_VERSION = 61;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MDX989Y6D8;
 				INFOPLIST_FILE = Diplomski_rad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad.development";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad.release-candidate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7197baa6-37c2-4f5f-b8af-a1bf225c7508";
+				PROVISIONING_PROFILE = "c79cc623-83f6-4107-8c88-9150e7f7bcc8";
 				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.rep.Diplomski-rad.release-candidate";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -917,16 +920,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2BB77881EEF313800FB9280 /* Test.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 45;
+				CURRENT_PROJECT_VERSION = 61;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = MDX989Y6D8;
 				INFOPLIST_FILE = Diplomski_rad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad.development";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rep.Diplomski-rad.release-candidate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "32f3168e-ccfc-4a36-a63a-c1775929bb95";
+				PROVISIONING_PROFILE = "a57af986-0a61-4a44-9e0e-883d6d42d565";
 				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.rep.Diplomski-rad.test-release";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
