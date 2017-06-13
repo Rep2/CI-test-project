@@ -1,1 +1,1 @@
-Project to test continuous devlivery on iOS.
+Project to test continuous devlivery on iOS using Xcode Server.
